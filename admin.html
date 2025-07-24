@@ -2,27 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Admin Dashboard</title>
+  <title>Web App Home Page</title>
+  <link rel="stylesheet" href="style.css">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #e6f2ff;
+      background-color: #f2f2f2;
       text-align: center;
-      padding: 100px;
+      padding: 50px;
     }
     h1 {
-      color: #004080;
-      font-size: 36px;
-    }
-    p {
       color: #333;
-      font-size: 24px;
-      margin-top: 20px;
+    }
+    .links {
+      margin-top: 30px;
+    }
+    .links a {
+      display: block;
+      margin: 10px 0;
+      font-size: 20px;
+      text-decoration: none;
+      color: #007bff;
+    }
+    .links a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Admin Dashboard</h1>
-  <p>Welcome to the users in DevOps world</p>
+  <h1>Welcome to the Web App Home Page</h1>
+  <div class="links">
+    <a href="admin.html">Admin Page</a>
+    <a href="user.html">User Page</a>
+    <a href="manager.html">Manager Page</a>
+  </div>
 </body>
 </html>

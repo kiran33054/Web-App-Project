@@ -2,38 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Web App Home Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #333;
-    }
-    .links {
-      margin-top: 30px;
-    }
-    .links a {
-      display: block;
-      margin: 10px 0;
-      font-size: 20px;
-      text-decoration: none;
-      color: #007bff;
-    }
-    .links a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to the Web App Home Page</h1>
+  <nav>
+    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+    <a href="admin.html"><i class="fas fa-user-shield"></i> Admin</a>
+    <a href="user.html"><i class="fas fa-user"></i> User</a>
+    <a href="manager.html"><i class="fas fa-briefcase"></i> Manager</a>
+  </nav>
+
+  <h1>Welcome to the Web App</h1>
+  <p>Select a role to continue:</p>
+
   <div class="links">
-    <a href="admin.html">Admin Page</a>
-    <a href="user.html">User Page</a>
-    <a href="manager.html">Manager Page</a>
+    <a href="admin.html">Go to Admin Page</a>
+    <a href="user.html">Go to User Page</a>
+    <a href="manager.html">Go to Manager Page</a>
   </div>
 </body>
 </html>
